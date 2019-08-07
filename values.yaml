@@ -1,3 +1,1 @@
-pvc:
-  storageClassName: netapp-file
-  name: ghost-content 
+

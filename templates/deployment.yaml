@@ -23,10 +23,3 @@ spec:
         env:
         - name: url
           value: http://my-blog.com
-        volumeMounts:
-        - mountPath: /var/lib/ghost/content
-          name: content
-      volumes:
-      - name: content
-        persistentVolumeClaim:
-          claimName: {{ .Values.pvc.name }}

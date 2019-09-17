@@ -1,18 +1,18 @@
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
-  name: ghost
+  name: worldhealth
   labels:
-    app: ghost
+    app: worldhealth
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ghost
+      app: worldhealth
   template:
     metadata:
       labels:
-        app: ghost
+        app: worldhealth
     spec:
       containers:
       - name: ghost

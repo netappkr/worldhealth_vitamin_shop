@@ -1,1 +1,4 @@
-
+  
+pvc:
+  storageClassName: netapp-file
+  name: worldhealth-content 
